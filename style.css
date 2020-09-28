@@ -1,0 +1,105 @@
+html {
+  height: 100%;
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+/* Color scheme
+   Danger Red (#D9514EFF), Tap Shoe (#2A2B2DFF) and Blue Blossom (#2DA8D8FF)
+*/
+
+body {
+  background: linear-gradient(#D9514EFF, #2DA8D8FF);
+  text-align: center;
+  font-family: 'Grandstander', cursive;
+  color: #2A2B2DFF;
+}
+
+#canvas {
+  border: 1px solid #2A2B2DFF;
+  border-radius: 10px;
+}
+
+.inputs-left-container {
+  float: left;
+}
+
+.inputs-right-container {
+  float: right;
+}
+
+.inputs-left {
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.inputs-right {
+  margin-bottom: 15px;
+  margin-top: 35px
+}
+
+.input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-color: #2DA8D8FF;
+  background: transparent;
+  outline: none;
+  font-family: 'Grandstander', cursive;
+}
+
+.left-arrow {
+  width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-right: 30px solid #2A2B2DFF;
+	border-bottom: 15px solid transparent;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.right-arrow {
+  width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 30px solid #2A2B2DFF;
+	border-bottom: 15px solid transparent;
+  float: left;
+  margin-bottom: 20px;
+}
+
+
+.mid-num {
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  float: left;
+  font-family: 'Grandstander', cursive;
+  outline: none;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#cos {
+  width: 40px;
+  height: 40px;
+  background-color: #2A2B2DFF;
+  float: right;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+#rst {
+  width: 40px;
+  height: 40px;
+  background-color: #2A2B2DFF;
+  float: right;
+  margin-right: 50px;
+}
+
+.divtext {
+  color: #D9514EFF;
+  margin-top: 13px;
+}

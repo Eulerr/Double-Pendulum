@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>1 - Double Pendulum</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Double Pendulum</h1>
+    <h3>The bottom pendulum traces a line</h3>
+
+    <div class="inputs-left-container">
+      <p class="inputs-left">Top Ball Mass: </p> <div id="la" class="left-arrow"></div> <input class="mid-num" id="tbm" type='text' value="20" readonly> <div id="ra" class="right-arrow"></div>
+      <p class="inputs-left">Bottom Ball Mass: </p> <div id="la1" class="left-arrow"></div> <input class="mid-num" id="bbm" type='text' value="20" readonly> <div id="ra1" class="right-arrow"></div>
+      <p class="inputs-left">Gravity: </p> <div id="la2" class="left-arrow"></div> <input class="mid-num" id="g" type='text' value="1" readonly> <div id="ra2" class="right-arrow"></div>
+      <p class="inputs-left">Cord Length: </p> <div id="la3" class="left-arrow"></div> <input class="mid-num" id="tcl" type='text' value="200" readonly> <div id="ra3" class="right-arrow"></div>
+    </div>
+
+  <div class="inputs-right-container">
+    <p class="inputs-right">Circles or Squares </p> <div id="cos"><p id="cosp" class="divtext">S</p></div> <br>
+    <p class="inputs-right">Reset: </p> <div id="rst"> <p id="rstp" class="divtext">R</p> </div>
+  </div>
+    <canvas id="canvas"></canvas>
+  </body>
+  <script src="main.js" charset="utf-8"></script>
+</html>
